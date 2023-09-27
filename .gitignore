@@ -1,0 +1,14 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# ignore ds stores!
+**/.DS_Store
+
+# ignore .env file
+secret_keys.py
+
+# ignore pycache
+__pycache__
