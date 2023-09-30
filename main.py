@@ -87,7 +87,7 @@ if __name__ == '__main__':
     subject = "Your Daily JobFinder Results"
     body = f"Startups to Watch:\n\n{startups}\n\nStartup Job Postings:\n\n{jobs_}"
 
-    # Set up multipart email
+    # Set up email message import
     em = EmailMessage()
     em["From"] = email_sender
     em["To"] = email_receiver
